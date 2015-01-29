@@ -1,46 +1,45 @@
 
 <!-- projects Grid Section -->
 
-<section id="refrences">
+<section id="docs">
 <div class="container"> 
     <div class="row">
          <div class="col-lg-12 text-center">
-             <h2>Refrences</h2>
+             <h2>Documents</h2>
              <hr class="star-primary">
-             <h3>List of all the documents and references used</h3>
+             <h3>Documents about our project</h3>
          </div>
     </div>
  
 
 
-<div class="row"> 
 
-         {% for project in site.data.projectsdb %}
-
-<div class="panel panel-default">
-  <div class="panel-heading">{{ project.name }}</div>
-  <div class="panel-body">
-   {{ project.description }}
-    <div class="panel-body">
-          <a href="{{ project.url }}" target="_blank" class="btn btn-default" role="button">Open File &raquo;</a>
-         <a href="#{{ project.index }}"  data-toggle="modal"  class="btn btn-default" role="button">Description &raquo;</a>
-
- </div> 
-
-</div>
-
-</div>
+<div class="row">
+     {% for project in site.data.docsdb %}
+  <div class="col-sm-6 col-md-4 projects-item">
+    <div class="thumbnail">
+          
+      <div class="caption">
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.description }}</p>
+        <p><a href="#{{ project.index }}" data-toggle="modal" class="btn btn-default" role="button">View Details &raquo;</a></p>
+      </div>
+    </div>
+  </div>
           {% endfor %}
+
 </div>
 
+
+</div>
 </section>
 
 
-  
 
-    
-  {% for project in site.data.projectsdb %}
 
+  {% for project in site.data.docsdb %}
+
+ 
 <!-- projects Modals -->
     <div class="projects-modal modal fade" id="{{ project.index }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -54,16 +53,20 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h4>{{ project.name }}</h4>
+                            <h2>{{ project.name }}</h2>
                             <hr class="star-primary">
                              <p>{{ project.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Author:
+                                <li>Supervisor:
                                     <strong><a href="{{ project.url }}">{{ project.author }}</a>
                                     </strong>
                                 </li>
+                                <li>Date:
+                                    <strong>April 2014
+                                    </strong>
+                                </li>
                                 <li><i class="fa fa-globe"></i>
-                                    <strong><a href="{{ project.url }}" target="_blank" >: File</a>
+                                    <strong><a href="{{ project.url }}">: Code</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -75,6 +78,3 @@
         </div>
     </div>
    {% endfor %}
-
-
- 

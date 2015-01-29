@@ -28,9 +28,9 @@ people:
     - title: twitter
       url: #
     - title: facebook
-      url: #
+      url: https://www.facebook.com/israa.alqassas/
     - title: linkedin
-      url: #
+      url: sa.linkedin.com/pub/israa-al-qassas/97/960/927
 
 - name: Reemaz Hetaimish
   pic: 3
@@ -39,7 +39,7 @@ people:
     - title: twitter
       url: #
     - title: facebook
-      url: #
+      url: https://www.facebook.com/reemaz.kh
     - title: google-plus
       url: #
 - name: Sarah Alharathey
@@ -47,11 +47,11 @@ people:
   position: Member
   social:
     - title: twitter
-      url: #
+      url: SarahAlharthey
     - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: https://www.facebook.com/SarahAlharthey/
+    - title: linkedin
+      url: sa.linkedin.com/pub/sarah-alharthey/34/588/533
 
 # ----------------------- #
 #    Jekyll & Plugins     #
