@@ -1,0 +1,77 @@
+- name: "Event-Driven Data Acquisition and Continuous-Time Digital Signal Processing"
+  author: Yannis Tsividis
+  index: 1
+  url: https://db.tt/Vyf7TF07
+  description:  "This paper reviews research in event-driven data acquisition and associated digital signal processing. 
+  The approaches considered can potentially offer significant energy and bandwidth savings with certain important 
+  classes of signals, in which activity varies significantly with time. An extensive bibliography is provided."
+- name: "MT - 201  Interfacing FPGAs to an ADC Converter’s Digital Data Output"
+  author: Michiel van Elzakker
+  index: 2
+  url: http://www.analog.com/static/imported-files/tutorials/MT-201.pdf
+  description: "Interfacing field programmable gate arrays (FPGAs) to analog - to - digital converter (ADC) output is a 
+  common engineering challenge.  This notebook includes an overview of various interface protocols and standards 
+  as well as application tips and techniques for utilizing LVDS in high speed data converter implementations."
+- name: "Taking the Mystery out of the Infamous Formula, 'SNR = 6.02N + 1.76dB,' a nd Why You Should Care "
+  author: Applications Engineering Notebook 
+  index: 3
+  url: //github.com/EUTS/Pre-RegistrationWebsite
+  description: "This tutorial first derives the theoretical quantization noise of an N-bit
+analog-to-digital converter
+(ADC). Once the rms quantization noise voltage
+is known, the theoretical signal-to-noise ratio
+(SNR) is computed. The effects of overs
+ampling on the SNR are also analyzed. "
+- name:  "MT - 020 ADC Architectures I: The Flash Converter"
+  author: Walt Kester
+  index: 4
+  url: http://www.analog.com/static/imported-files/tutorials/MT-020.pdf
+  description: "This tutorial begins with a brief
+discussion of the comparator which is the
+basic building block for flash converters"
+- name: "MT - 090 Sample-and-Hold Amplifiers" 
+  author: Walt Kester
+  index: 5
+  url: http://www.analog.com/static/imported-files/tutorials/MT-090.pdf
+  description: "The sample-and-hold amplifier , or SHA, is a critical part of most data acquisition systems.
+   It captures an analog signal and holds it duri ng some operation (most commonly analog-digital conversion). 
+   The circuitry involved is demandi ng, and unexpected properties of commonplace components 
+   such as capacitors and printed circuit boards may degrade SHA performance. "
+- name: "MT - 021 ADC Architectures II: Successive Approximation ADCs"
+  author: Walt Kester
+  index: 6
+  url: http://www.analog.com/static/imported-files/tutorials/MT-021.pdf
+  description: "ADC Architectures II: Successive Approximation ADCs"
+- name: "MT - 002 What the Nyquist Criterion Means to Your Sampled Data System Design"
+  author: Walt Kester
+  index: 7
+  url: http://www.analog.com/static/imported-files/tutorials/MT-002.pdf
+  description: "A thorough understanding of the modern 
+nterpretation of Nyquist's
+criterion is mandatory when
+dealing with sampled data systems. This tutori
+al explains in easy to
+understand terms how the
+Nyquist criterion applies to baseband sampli
+ng , undersampling, and oversampling applications. "
+- name: "MT-003 Understand SINAD, ENOB, SNR, THD, THD + N, and SFDR so You Don't Get Lost in the Noise Floor "
+  author: Walt Kester
+  index: 8
+  url: http://www.analog.com/static/imported-files/tutorials/MT-002.pdf
+  description: "Six popular specifications for quantifying ADC dynamic performance are 
+  SINAD (signal-to- noise-and-distortion ratio), ENOB (effective number of bits), 
+  SNR (signal-to-noise ratio), THD (total harmonic distortion), 
+  TH D + N (total harmonic distortion plus noise), and SFDR (spurious free dynamic range). 
+  Although most ADC manufacturers have adopted the same definitions for these specifications, 
+  some exceptions still exis t. Because of their importance in comparing ADCs, it is important not only to 
+  understand exactly what is being specified, but the relationships between the specifications. "
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+baseurl: ""
+url: http://euts.github.io
+title: Capstone 2
+tagline: Effat University Tech Society
+email: hamohammed.as@gmail.com
+description: About final project
+
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: github
+    url: https://github.com/euts
