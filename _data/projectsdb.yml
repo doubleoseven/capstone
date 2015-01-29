@@ -1,5 +1,4 @@
 - name: "Event-Driven Data Acquisition and Continuous-Time Digital Signal Processing"
-- name: "Event-Driven Data Acquisition and Continuous-Time Digital Signal Processing"
   author: Yannis Tsividis
   index: 1
   url: https://db.tt/Vyf7TF07
@@ -66,7 +65,23 @@ ng , undersampling, and oversampling applications. "
   Although most ADC manufacturers have adopted the same definitions for these specifications, 
   some exceptions still exis t. Because of their importance in comparing ADCs, it is important not only to 
   understand exactly what is being specified, but the relationships between the specifications. "
-
+- name: "MT - 002 What the Nyquist Criterion Means to Your Sampled Data System Design"
+  author: Walt Kester
+  index: 7
+  url: http://www.analog.com/static/imported-files/tutorials/MT-002.pdf
+  description: "A thorough understanding of the modern 
+nterpretation of Nyquist's
+criterion is mandatory when
+dealing with sampled data systems. This tutori
+al explains in easy to
+understand terms how the
+Nyquist criterion applies to baseband sampli
+ng , undersampling, and oversampling applications. "
+- name: "A CONTINUOUS TIME ADC AND DIGITAL SIGNAL PROCESSINGSYSTEM FOR SMART DUST AND WIRELESS SENSOR APPLICATIONS"
+  author: many
+  index: 8
+  url: http://ijret.org/Volumes/V02/I06/IJRET_110206005.pdf
+  description: "In t his paper an event - driven (ED) digital signal processing system (DSP) , Analog - to - digital converter (ADC) and Digital - to - analog converter ( DAC) operating in cont inuous - time (CT) with smart dust as the target application is presented . The benefits of the CT system compared to its conventional counterpart are lower in - band quantization noise and no requirement of a clock generator and anti - aliasing filter, which mak es it suitable for processing burst - type data signals. "
 
 
 

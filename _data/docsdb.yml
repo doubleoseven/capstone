@@ -1,17 +1,17 @@
 - name: Paper
-  author: EUTS
+  author: team members
   index: 1
   url: /img/project_proposal.pdf
   description: pdf of the paper
 - name: Slide Show
-  author: Superviser Name
+  author: team members
   index: 2
   url: /img/Capstone Presentation_Jan4.pptx
   description: slide show about the project
 - name: Poster
-  author: Dr. Wadee Halabi
+  author: team members
   index: 3
-  url: //github.com/EUTS/Pre-RegistrationWebsite
+  url: /img/Capstone Project_Poster_Jan17_vSQ.pptx
   description: Project poster presented in KAUST at WEP2015
 
 
