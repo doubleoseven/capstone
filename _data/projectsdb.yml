@@ -67,7 +67,7 @@ ng , undersampling, and oversampling applications. "
   understand exactly what is being specified, but the relationships between the specifications. "
 - name: "MT - 002 What the Nyquist Criterion Means to Your Sampled Data System Design"
   author: Walt Kester
-  index: 7
+  index: 9
   url: http://www.analog.com/static/imported-files/tutorials/MT-002.pdf
   description: "A thorough understanding of the modern 
 nterpretation of Nyquist's
@@ -79,9 +79,28 @@ Nyquist criterion applies to baseband sampli
 ng , undersampling, and oversampling applications. "
 - name: "A CONTINUOUS TIME ADC AND DIGITAL SIGNAL PROCESSINGSYSTEM FOR SMART DUST AND WIRELESS SENSOR APPLICATIONS"
   author: many
-  index: 8
+  index: 10
   url: http://ijret.org/Volumes/V02/I06/IJRET_110206005.pdf
   description: "In t his paper an event - driven (ED) digital signal processing system (DSP) , Analog - to - digital converter (ADC) and Digital - to - analog converter ( DAC) operating in cont inuous - time (CT) with smart dust as the target application is presented . The benefits of the CT system compared to its conventional counterpart are lower in - band quantization noise and no requirement of a clock generator and anti - aliasing filter, which mak es it suitable for processing burst - type data signals. "
+- name: "Data acquisition and signal conditioning for low power measurement systems"
+  author: Kirill Kozmin
+  index: 11
+  url: http://epubl.ltu.se/1402-1544/2008/42/LTU-DT-0842-SE.pdf
+  description: " The present thesis shows how an event driven approach can be utilized in hardware design in an example of level- crossing ADC, where sampling moments are triggered by the signal itself. The thesis presents a design procedure for the level-crossing ADC. Constraints for each building block are identified in system level simulations, performed in Cadence and MATLA"
+- name: "An ECG Recording Front-End With Continuous-Time Level-Crossing Sampling"
+  author: many
+  index: 12
+  url: http://duteela.et.tudelft.nl/~wout/documents/tbiocas2014_li_mansano_serdijn.pdf
+  description: "  why this paper is of interest to us?"
+- name: "A Level-Crossing Sampling Scheme for Non-Bandlimited Signals"
+  author: Karen and Andrew
+  index: 13
+  url: http://www.ifp.illinois.edu/~singer/pub_files/A_Level-Crossing_Sampling_Scheme_for_Non-Bandlimited_Signals.pdf
+  description: " We propose a level-crossing A/D (LCA/D) converter
+which can be modelled with an oversampling A/D followed by
+a low resolution quantizer. In this paper we will study the
+reconstruction of non-bandlimited inputs processed by such a
+system and compare its performance to uniform sampling"
 
 
 
