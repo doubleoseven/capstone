@@ -19,7 +19,7 @@ people:
     - title: github
       url: https://github.com/haneensa
     - title: linkedin
-      url: https://www.linkedin.com/haneenmohammed
+      url: https://www.linkedin.com/in/haneenmohammed
 
 - name: Israa Alqassas
   pic: 2
@@ -30,7 +30,7 @@ people:
     - title: facebook
       url: https://www.facebook.com/israa.alqassas/
     - title: linkedin
-      url: sa.linkedin.com/pub/israa-al-qassas/97/960/927
+      url: https://sa.linkedin.com/pub/israa-al-qassas/97/960/927
 
 - name: Reemaz Hetaimish
   pic: 3
@@ -51,7 +51,7 @@ people:
     - title: facebook
       url: https://www.facebook.com/SarahAlharthey/
     - title: linkedin
-      url: sa.linkedin.com/pub/sarah-alharthey/34/588/533
+      url: https://sa.linkedin.com/pub/sarah-alharthey/34/588/533
 
 # ----------------------- #
 #    Jekyll & Plugins     #

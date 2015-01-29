@@ -101,9 +101,41 @@ which can be modelled with an oversampling A/D followed by
 a low resolution quantizer. In this paper we will study the
 reconstruction of non-bandlimited inputs processed by such a
 system and compare its performance to uniform sampling"
+- name: "Slides about digitla filters"
+  author: Karen and Andrew
+  index: 14
+  url: https://courses.cs.washington.edu/courses/cse467/05wi/pdfs/lectures/12-DigitalFilters.pdf
+  description: "Explains what is a filter, filter types, filter propertie, FIR, and IIR"
+- name: "Slides about digitla filters"
+  author: Unknown
+  index: 15
+  url: https://courses.cs.washington.edu/courses/cse467/05wi/pdfs/lectures/12-DigitalFilters.pdf
+  description: "The Scientist and Engineer's Guide to Digital Signal Processing"
+- name: "Slides about digitla filters"
+  author: Steven W. Smith
+  index: 16
+  url: http://www.dspguide.com/ch1.htm
+  description: "Book about DSP"
+- name: "A Level-Crossing Flash Asynchronous Analog-to-Digital Converter"
+  author: Many
+  index: 16
+  url: http://vlsi.cornell.edu/~rajit/ps/async_adc.pdf
+  description: "n this paper we describe the design of the LCF-ADC
+architecture, and present simulation results that show low
+power consumption. We discuss both theoretical considera-
+tions that determine the performance of our ADC as well
+as a proposed implementation. Comparisons with previ-
+ously designed asynchronous analog-to-digital converters
+show the benefits of the LCF-ADC architecture. In 180 nm
+CMOS, our ADC is expected to consume 43
+μW at 160 kHz,
+and 438
+μW at 5 MHz."
 
 
 
+
+ 
 
 
 
