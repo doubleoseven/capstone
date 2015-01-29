@@ -65,18 +65,11 @@ ng , undersampling, and oversampling applications. "
   Although most ADC manufacturers have adopted the same definitions for these specifications, 
   some exceptions still exis t. Because of their importance in comparing ADCs, it is important not only to 
   understand exactly what is being specified, but the relationships between the specifications. "
-- name: "MT - 002 What the Nyquist Criterion Means to Your Sampled Data System Design"
-  author: Walt Kester
+- name: "LEVERAGING FPGA AND CPLD DIGITAL LOGIC TO IMPLEMENT ANALOG TO DIGITAL CONVERTERS "
+  author: Lattice Semiconductor
   index: 9
-  url: http://www.analog.com/static/imported-files/tutorials/MT-002.pdf
-  description: "A thorough understanding of the modern 
-nterpretation of Nyquist's
-criterion is mandatory when
-dealing with sampled data systems. This tutori
-al explains in easy to
-understand terms how the
-Nyquist criterion applies to baseband sampli
-ng , undersampling, and oversampling applications. "
+  url: http://www.latticesemi.com/~/media/Documents/WhitePapers/AG/CreatingAnADCUsingFPGAResources.PDF?document_id=36525
+  description: "Analog to Digital Converter Implementation on fpga Overview "
 - name: "A CONTINUOUS TIME ADC AND DIGITAL SIGNAL PROCESSINGSYSTEM FOR SMART DUST AND WIRELESS SENSOR APPLICATIONS"
   author: many
   index: 10
@@ -101,17 +94,17 @@ which can be modelled with an oversampling A/D followed by
 a low resolution quantizer. In this paper we will study the
 reconstruction of non-bandlimited inputs processed by such a
 system and compare its performance to uniform sampling"
-- name: "Slides about digitla filters"
-  author: Karen and Andrew
+- name: "SPECTRAL ANALYSIS OF A SIGNAL DRIVEN SAMPLING SCHEME"
+  author: Saeed Mian Qaisar, Laurent Fesquet, Marc Renaudin
   index: 14
   url: https://courses.cs.washington.edu/courses/cse467/05wi/pdfs/lectures/12-DigitalFilters.pdf
-  description: "Explains what is a filter, filter types, filter propertie, FIR, and IIR"
+  description: "This work is a part of a drastic revolution in the classical signal processing chain required in mobile systems. The system must be low power as it is powered by a battery. Thus a signal driven sam- pling scheme based on level crossing is adopted, delivering non- uniformly spaced out in time sampled points. In order to analyse the non-uniformly sampled signal obtained at the output of this sam- pling scheme a new spectral analysis technique is devised. The idea is to combine the features of both uniform and non-uniform signal processing chains in order to obtain a good spectrum quality with low computational complexity. The comparison of the proposed technique with General Discrete Fourier transform and Lomb’s algorithm shows significant improvements in terms of spectrum quality and computational complexity."
 - name: "Slides about digitla filters"
   author: Unknown
   index: 15
   url: https://courses.cs.washington.edu/courses/cse467/05wi/pdfs/lectures/12-DigitalFilters.pdf
-  description: "The Scientist and Engineer's Guide to Digital Signal Processing"
-- name: "Slides about digitla filters"
+  description: "Explains what is a filter, filter types, filter propertie, FIR, and IIR"
+- name: "The Scientist and Engineer's Guide to Digital Signal Processing"
   author: Steven W. Smith
   index: 16
   url: http://www.dspguide.com/ch1.htm
@@ -127,6 +120,21 @@ tions that determine the performance of  ADC as well
 as a proposed implementation. Comparisons with previ-
 ously designed asynchronous analog-to-digital converters
 show the benefits of the LCF-ADC architecture"
+- name: "Energy-Efficient Time-Stampless Adaptive Nonuniform Sampling-MIT"
+  author: Many
+  index: 18
+  url: http://www.mit.edu/~medard/papers2011/Energy-Efficient%20Time-Stampless%20Adaptive%20Nonuniform%20Sampling.pdf
+  description: "Nowadays, since more and more batteryoperated devices are involved in applications with continuous sensing, development of an efficient sampling mechanisms is an important issue for these applications. In this paper, we investigate power efficiency aspects of a recently proposed adaptive nonuniform sampling. This sampling scheme minimizes the energy consumption of the sampling process, which is approximately proportional to sampling rate. The main characteristics of our method are that, first, sampling times do not need to be transmitted, since the receiver can compute them by using a function of previously taken samples, and second, only innovative samples are taken from the signal of interest, reducing the sampling rate and therefore the energy consumption. We call this scheme Time-Stampless Adaptive Nonuniform Sampling (TANS). TANS can be used in several scenarios, showing promising results in terms of energy savings, and can potentially enable the development of new applications that require continuous signals sensing, such as applications related to health monitoring, location tracking and entertainment."
+- name: "A new non-uniform adaptive-sampling successive approximation ADC for biomedical sparse signals"
+  author: Many
+  index: 19
+  url: http://profdoc.um.ac.ir/articles/a/1033148.pdf
+  description: "This paper presents a new sampling technique
+and a successive approximation analog to digital converter
+(SA-ADC) which samples sparse signals in a non-uniform
+adaptive way. The proposed sampling technique has the
+capability to be incorporated in the structure of the
+SA-ADC. "
 
 
 
