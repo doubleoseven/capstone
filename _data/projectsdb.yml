@@ -118,19 +118,15 @@ system and compare its performance to uniform sampling"
   description: "Book about DSP"
 - name: "A Level-Crossing Flash Asynchronous Analog-to-Digital Converter"
   author: Many
-  index: 16
+  index: 17
   url: http://vlsi.cornell.edu/~rajit/ps/async_adc.pdf
-  description: "n this paper we describe the design of the LCF-ADC
+  description: "This paper describes the design of the LCF-ADC
 architecture, and present simulation results that show low
-power consumption. We discuss both theoretical considera-
-tions that determine the performance of our ADC as well
+power consumption. It discuss both theoretical considera-
+tions that determine the performance of  ADC as well
 as a proposed implementation. Comparisons with previ-
 ously designed asynchronous analog-to-digital converters
-show the benefits of the LCF-ADC architecture. In 180 nm
-CMOS, our ADC is expected to consume 43
-μW at 160 kHz,
-and 438
-μW at 5 MHz."
+show the benefits of the LCF-ADC architecture"
 
 
 
