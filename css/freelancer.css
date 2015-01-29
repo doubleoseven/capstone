@@ -78,11 +78,11 @@ hr.star-primary:after {
 }
 
 hr.star-dark {
-    border-color: #000;
+    border-color: #2c3e50;
 }
 
 hr.star-dark:after {
-    color: #000;
+    color: #2c3e50;
     background-color: #f7f7f7;
 }
 .img-centered {
