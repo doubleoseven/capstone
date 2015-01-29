@@ -6,12 +6,12 @@
 - name: Slide Show
   author: team members
   index: 2
-  url: /img/Capstone Presentation_Jan4.pptx
+  url: /img/ppt.pdf
   description: slide show about the project
 - name: Poster
   author: team members
   index: 3
-  url: /img/Capstone Project_Poster_Jan17_vSQ.pptx
+  url: /img/poster.pdf
   description: Project poster presented in KAUST at WEP2015
 
 
