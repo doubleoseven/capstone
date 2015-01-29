@@ -37,6 +37,7 @@ h6 {
 }
 
 hr.star-light,
+hr.star-dark,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
@@ -47,6 +48,7 @@ hr.star-primary {
 }
 
 hr.star-light:after,
+hr.star-dark:after,
 hr.star-primary:after {
     content: "\f005";
     display: inline-block;
@@ -63,7 +65,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #f7f7f7;
 }
 
 hr.star-primary {
@@ -75,6 +77,14 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+hr.star-dark {
+    border-color: #000;
+}
+
+hr.star-dark:after {
+    color: #000;
+    background-color: #f7f7f7;
+}
 .img-centered {
     margin: 0 auto;
 }
@@ -83,46 +93,9 @@ header {
     text-align: center;
     color: #fff;
     background: #18bc9c;
+
 }
-
-header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-header img {
-    display: block;
-    margin: 0 auto 20px;
-}
-
-header .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-}
-
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
-}
-
-@media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
-
-    header .intro-text .name {
-        font-size: 4.75em;
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em;
-    }
-}
-
+ 
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -181,7 +154,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #000;
 }
 
 @media(max-width:767px) {
@@ -250,24 +223,7 @@ section.success {
         margin: 0 0 30px;
     }
 }
-
-.btn-outline {
-    margin-top: 15px;
-    border: solid 2px #fff;
-    font-size: 20px;
-    color: #fff;
-    background: 0 0;
-    transition: all .3s ease-in-out;
-}
-
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-    border: solid 2px #fff;
-    color: #18bc9c;
-    background: #fff;
-}
+ 
 
 .floating-label-form-group {
     position: relative;

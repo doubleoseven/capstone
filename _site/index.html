@@ -13,9 +13,13 @@
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/landing-page.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+        <link href="css/freelancer.css" rel="stylesheet">
+
+        <link href="css/agency.css" rel="stylesheet">
+
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -73,24 +77,44 @@
 
 
     
-    <!-- Header -->
+      <!-- Header -->
     <header>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                     <div class="intro-text">
-                        <span class="name">Capstone #2:</span>
-                         <h3>Efficient Fltering Technique based on adaptive rate sampling</h3>
-                        <hr class="star-light">
-                        <span class="skills">Information theory is really like a symphony. You see themes coming out, those themes
-get repeated, they get repeated again with more and more complexity each time and when
-you understand the simple idea of the theme, then you understand what's going on</span>
-                        <br>
-                     </div>
-                </div>
+            <div class="intro-text">
+                <div class="intro-heading">Capstone</div>
+                <div class="intro-lead-in">Efficient Fltering Technique based on adaptive rate sampling</div>
+                <p>Information theory is really like a symphony. You see themes coming out, those themes get repeated, they get repeated again with more and more complexity each time and when you understand the simple idea of the theme, then you understand what's going on</p>
+
             </div>
         </div>
     </header>
+    
+
+    <!-- About Section -->
+    <section class="bg-light-gray" id="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-dark">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1">
+                    <p>This work aims to enhance the signal acquisition and processing chain required in remote systems. The motivation is to reduce their size, cost, processing noise, electromagnetic emission and especially power consumption. The classical or uniform sampling based techniques process the signal by employing a fixed order filter, which operates at a fixed sampling rate. Because of this nature, they are considered highly constrained in the case of low activity sporadic signals. To resolve this shortcoming, a filtering technique based on adaptive rate sampling is proposed. The focus is to achieve an efficient filtering technique by employing both uniform and non-uniform processing tools. This technique is based on EDS (Event-Driven Sampling), which adapts the sampling rate according to the input signal local variations and therefore reduces the processing activity. By employing the EDS features, an EDADC (Event-Driven Analog to Digital Converter) </p>
+                </div>
+                <div class="col-lg-5">
+                    <p>model has been developed to digitize a band-limited analog signal. The relevant active part of the non-uniformly sampled signal is selected and windowed by employing ASA (Activity Selection Algorithm). ASA displays interesting features with EDS, which are not available in the classical case. An offline reference FIR (Filter Impulse Response) filters bank is designed for the targeted application. The idea is to compare the results of the reference filtering with that of the proposed filtering. The proposed technique performance has been studied for a speech application. The goal is to determine the speakers gender. It can be done by measuring the speakers pitch. The computational complexity and the output quality of the proposed technique are compared to the classical one. Results show a drastic reduction in the total number of operations and therefore the power consumption.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-default">
+                        <i class="fa fa-download"></i> Download The Beta Article
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     
 <!-- projects Grid Section -->
@@ -236,32 +260,6 @@ you understand the simple idea of the theme, then you understand what's going on
 
 
   
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1">
-                    <p>This work aims to enhance the signal acquisition and processing chain required in remote systems. The motivation is to reduce their size, cost, processing noise, electromagnetic emission and especially power consumption. The classical or uniform sampling based techniques process the signal by employing a fixed order filter, which operates at a fixed sampling rate. Because of this nature, they are considered highly constrained in the case of low activity sporadic signals. To resolve this shortcoming, a filtering technique based on adaptive rate sampling is proposed. The focus is to achieve an efficient filtering technique by employing both uniform and non-uniform processing tools. This technique is based on EDS (Event-Driven Sampling), which adapts the sampling rate according to the input signal local variations and therefore reduces the processing activity. By employing the EDS features, an EDADC (Event-Driven Analog to Digital Converter) </p>
-                </div>
-                <div class="col-lg-5">
-                    <p>model has been developed to digitize a band-limited analog signal. The relevant active part of the non-uniformly sampled signal is selected and windowed by employing ASA (Activity Selection Algorithm). ASA displays interesting features with EDS, which are not available in the classical case. An offline reference FIR (Filter Impulse Response) filters bank is designed for the targeted application. The idea is to compare the results of the reference filtering with that of the proposed filtering. The proposed technique performance has been studied for a speech application. The goal is to determine the speakers gender. It can be done by measuring the speakers pitch. The computational complexity and the output quality of the proposed technique are compared to the classical one. Results show a drastic reduction in the total number of operations and therefore the power consumption.</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download The Beta Article
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     
   
@@ -548,6 +546,93 @@ you understand the simple idea of the theme, then you understand what's going on
 
 
  
+        <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Under the supervision of Dr. Saeed Qaieser.</h3>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/1.png" class="img-responsive img-circle"  >
+                        <h4>Haneen Mohammed</h4>
+                        <p class="text-muted">Member</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            <li><a href="https://www.facebook.com/public/Haneen-Ashor"><i class="fa fa-facebook"></i></a>
+                            
+                            <li><a href="https://github.com/haneensa"><i class="fa fa-github"></i></a>
+                            
+                            <li><a href="https://www.linkedin.com/haneenmohammed"><i class="fa fa-linkedin"></i></a>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/2.png" class="img-responsive img-circle"  >
+                        <h4>Israa Alqassas</h4>
+                        <p class="text-muted">Member</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            <li><a href=""><i class="fa fa-twitter"></i></a>
+                            
+                            <li><a href=""><i class="fa fa-facebook"></i></a>
+                            
+                            <li><a href=""><i class="fa fa-linkedin"></i></a>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/3.png" class="img-responsive img-circle"  >
+                        <h4>Reemaz Hetaimish</h4>
+                        <p class="text-muted">Member</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            <li><a href=""><i class="fa fa-twitter"></i></a>
+                            
+                            <li><a href=""><i class="fa fa-facebook"></i></a>
+                            
+                            <li><a href=""><i class="fa fa-google-plus"></i></a>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/4.png" class="img-responsive img-circle"  >
+                        <h4>Sarah Alharathey</h4>
+                        <p class="text-muted">Member</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            <li><a href=""><i class="fa fa-twitter"></i></a>
+                            
+                            <li><a href=""><i class="fa fa-facebook"></i></a>
+                            
+                            <li><a href=""><i class="fa fa-google-plus"></i></a>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+            </div> 
+
+    </section>
+
     
 
  
