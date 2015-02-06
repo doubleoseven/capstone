@@ -15,7 +15,7 @@
 - name: "Taking the Mystery out of the Infamous Formula, 'SNR = 6.02N + 1.76dB,' a nd Why You Should Care "
   author: Applications Engineering Notebook 
   index: 3
-  url: //github.com/EUTS/Pre-RegistrationWebsite
+  url: http://www.analog.com/static/imported-files/tutorials/MT-001.pdf
   description: "This tutorial first derives the theoretical quantization noise of an N-bit
 analog-to-digital converter
 (ADC). Once the rms quantization noise voltage
